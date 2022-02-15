@@ -1,0 +1,57 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #f5f5f5;
+}
+
+.main-content {
+  width: 100%;
+  max-width: 330px;
+  padding: 40px;
+  margin: auto;
+  box-shadow: 1px 3px 8px 3px;
+  border-radius: 10px;
+}
+
+.form-floating {
+    margin-top: 40px;
+}
+
+.characters-length {
+    margin: 20px 0;
+    height: 40px;
+}
+
+.characters-length span, 
+    .characters-length input {
+        display: inline
+}
+
+.characters-length span {
+    float: left;
+}
+
+.characters-length input {
+    width: 100%;
+    max-width: 80px;
+    float: right;
+}
+
+.buttons {
+    margin-top: 30px;
+    height: 60px;
+}
+
+#generate {
+    float: left;
+}
+
+#copy {
+    float: right;
+}

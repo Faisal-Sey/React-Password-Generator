@@ -1,0 +1,8 @@
+{
+  "short_name": "password-generator",
+  "name": "Generate random passwords given number of characters",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
